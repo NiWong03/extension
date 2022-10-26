@@ -1,0 +1,27 @@
+{
+    "name": "Theme",
+    "description": "a theme hopefully",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon":{
+            "16": "./images/penis.png",
+            "32": "./images/penis.png",
+            "48": "./images/penis.png",
+            "128": "./images/penis.png"
+        }
+    },
+    "icons":{
+        "16": "./images/penis.png",
+        "32": "./images/penis.png",
+        "48": "./images/penis.png",
+        "128": "./images/penis.png"
+    },
+    "permissions": ["storage"],
+    "chrome_url_overrides":{
+        "newtab": "newtab.html"
+    }
+}

@@ -1,0 +1,168 @@
+.title{
+
+color: white;
+}
+
+body{
+    
+    background: url(images/dororo2.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+h2{
+    color:white;
+    
+}
+.datetime {
+    text-align:top-right;
+    font-size: 16px;
+    padding: 24px;
+    color: #ffffff;
+    background: #7b7555;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-right: 10px black solid;
+    border-left: 10px black solid;
+    border-bottom: 10px black solid;
+    border-top: 10px black solid; */
+    width: 400px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .time {
+    font-size: 3em;
+    color: black;
+  }
+  
+  .date {
+    margin-top: 12px;
+    font-size: 1.75em;
+    color:black
+  }
+
+  .container {
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: 16px;
+    padding: 24px;
+    color: #ffffff;
+    background: #7b7555;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-right: 10px black solid;
+    border-left: 10px black solid;
+    border-bottom: 10px black solid;
+    border-top: 10px black solid; */
+    width: 300px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .temperature-value {
+    margin-top: 10px;
+    font-size: 1.25em;
+    color:black
+  }
+
+  .temperature-description {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    font-size: 70px;
+
+    
+  }
+
+  .location {
+    margin-top: 10px;
+    font-size: 1.25em;
+    color:black
+  }
+
+  .float-child-element { 
+    float: left; 
+    width: 50%; 
+} 
+
+.box {
+    --width: 50px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+  
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.widgetsOpt{
+    text-align: center;
+    font-size: 16px;
+    padding: 4px;
+    color: black;
+    background: #7b7353;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    width: 150px;
+    font-weight: 50;
+    font-family: "Inter", sans-serif;
+    position: fixed;
+     bottom: 0;
+     right: 0;
+}
+
+.video{
+    text-align:center;
+    font-size: 16px;
+    padding: 4px;
+    color: black;
+    background: #7b7353;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    width: 150px;
+    font-weight: 50;
+    font-family: "Inter", sans-serif;
+    position:fixed;
+    bottom: 60px;
+    right:0;
+
+
+    
+}
+
+.yt{
+    position:fixed;
+    left:0;
+    bottom:1px;
+}
+
+.temp{
+    text-align:center;
+    font-size: 16px;
+    padding: 4px;
+    color: black;
+    background: #7b7353;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-right: 3px black solid;
+    border-left: 3px black solid;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    width: 150px;
+    font-weight: 50;
+    font-family: "Inter", sans-serif;
+    position:fixed;
+    bottom: 100px;
+    right:0;
+
+}
