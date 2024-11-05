@@ -276,4 +276,4 @@ videoHide.addEventListener('click',()=>{
     }
 })
 
-console.log(weatherapi)
+console.log(api);
